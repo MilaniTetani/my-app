@@ -30,6 +30,10 @@ body {
   margin-bottom: 20px;
 }
 
+.button-container {
+  margin-top: 20px;
+} 
+
 .show-btn {
   padding: 10px 20px;
   background-color: #d261ff;
@@ -38,7 +42,7 @@ body {
   font-size: 1rem;
   border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  /* transition: background-color 0.3s ease; */
 }
 
 .show-btn:hover {

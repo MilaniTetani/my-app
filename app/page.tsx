@@ -18,9 +18,11 @@ export default function Home() {
           height={300}
           className="study-gif"
         />
-        <button className="show-btn" onClick={() => setShowTimetable(true)}>
-          Click to see!
-        </button>
+        <div className="button-container">
+          <button className="show-btn" onClick={() => setShowTimetable(true)}>
+            Click to see!
+          </button>
+        </div>
       </div>
 
       {showTimetable && (
