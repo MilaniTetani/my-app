@@ -42,7 +42,6 @@ body {
   font-size: 1rem;
   border-radius: 8px;
   cursor: pointer;
-  /* transition: background-color 0.3s ease; */
 }
 
 .show-btn:hover {
@@ -76,12 +75,47 @@ body {
   border: 3px solid black;
   padding: 8px;
   text-align: center;
+  font-weight: bold;
 }
 
 tr {
   color: purple;
 }
 
-.timetable-table th {
+.schooltimetable th {
   background-color: #f2f2f2;
 }
+
+/* cute stuff */
+.schooltimetable tr:hover {
+  background-color: #1b0b38; 
+}
+
+/* Study timetable */
+.studytimetable {
+  border: 3px solid black;
+  border-collapse: collapse;
+  width: 100%;
+  background-color:  pink; 
+}
+
+.studytimetable th, .studytimetable td {
+  border: 3px solid black;
+  padding: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.studytimetable th {
+  background-color: #f2f2f2; 
+}
+
+.studytimetable tr {
+  color: purple; 
+}
+
+/* cute stuff */
+.studytimetable tr:hover {
+  background-color: #1b0b38; 
+}
+

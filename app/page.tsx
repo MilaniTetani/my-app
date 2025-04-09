@@ -143,7 +143,82 @@ export default function Home() {
           </div>
           <div className="timetable-box">
             <h2>📖 Study Timetable</h2>
-            <p>I will insert my study schedule here</p>
+            <p>
+            <table className="studytimetable">
+                <tr>
+                  <th>Time</th>
+                  <th>Monday</th>
+                  <th>Tuesday</th>
+                  <th>Wednesday</th>
+                  <th>Thursday</th>
+                  <th>Friday</th>
+                </tr>
+                <tr>
+                  <td>18:00</td>
+                  <td>Numerical Analysis Study Group</td>
+                  <td>Complex Analysis tutorial prep</td>
+                  <td>Computer Science Study Group (Prep for practical)</td>
+                  <td>Do any submissions due for the week until 10pm</td>
+                  <td>Numerical Analysis Week Revision</td>
+                </tr>
+                <tr>
+                  <td>19:00</td>
+                  <td>Complex Analysis Study Group</td>
+                  <td>Complex Analysis tutorial prep</td>
+                  <td>Computer Science Study Group (Prep for practical)</td>
+                  <td>...</td>
+                  <td>Numerical Analysis Week Revision</td>
+                </tr>
+                <tr>
+                  <td>20:00</td>
+                  <td>BREAK</td>
+                  <td>BREAK</td>
+                  <td>BREAK</td>
+                  <td>...</td>
+                  <td>Complex Analysis Week Revision</td>
+                </tr>
+                <tr>
+                  <td>21:00</td>
+                  <td>Computer Science study alone</td>
+                  <td>Numerical Analysis tutorial prep</td>
+                  <td>Mark tutorials for MAT1F & Schedule Send for tomorrow @8am</td>
+                  <td>...</td>
+                  <td>Complex Analysis Week Revision</td>
+                </tr>
+                <tr>
+                  <td>22:00</td>
+                  <td>Prep MAT1F tut for tutoring</td>
+                  <td>Numerical Analysis tutorial prep</td>
+                  <td>Pray & SLEEP😊🥳</td>
+                  <td>Pray & SLEEP😊🥳</td>
+                  <td>BREAK</td>
+                </tr>
+                <tr>
+                  <td>23:00</td>
+                  <td>Pray & SLEEP😊🥳</td>
+                  <td>Pray & SLEEP😊🥳</td>
+                  <td></td>
+                  <td></td>
+                  <td>Computer Science Week Revision</td>
+                </tr>
+                <tr>
+                  <td>00:00</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>Computer Science Week Revision</td>
+                </tr>
+              </table>
+            </p>
+            <p>
+              <h3><u>Notes for the Study TimeTable and other Daily bases:</u></h3>
+              <ul>
+                <li>I use the above timetable to study, but it various sometimes depending on submissions, test, fatigue, etc.</li>
+                <li><b>Saturday:</b> Catching up with week work, study group meetings, or chasing submissions.</li>
+                <li><b>Sunday:</b> Can do anything, but mainly for rest days.</li>
+              </ul>
+            </p>
           </div>
         </div>
       )}
