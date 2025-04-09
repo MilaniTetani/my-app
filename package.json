@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "tidy": "prettier --write \"app/**/*.{ts,tsx,js}\""
   },
   "dependencies": {
     "@types/jest": "^29.5.14",
@@ -29,5 +30,8 @@
     "tailwindcss": "^4",
     "typescript": "^5.8.2",
     "yarn": "^1.22.22"
+  },
+  "prettier": {
+    "tabWidth": 2
   }
 }
